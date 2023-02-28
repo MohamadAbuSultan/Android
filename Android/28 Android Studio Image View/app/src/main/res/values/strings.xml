@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">textMethods</string>
+    <string name="number1">number1</string>
+    <string name="number2">number2</string>
+    <string name="button1">sum</string>
+    <string name="result">result</string>
+</resources>

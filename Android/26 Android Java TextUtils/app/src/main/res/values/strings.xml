@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">textUtils</string>
+    <string name="myResult">result</string>
+    <string name="number1">number!</string>
+    <string name="number2">number2</string>
+    <string name="hint">number 1</string>
+    <string name="hint2">number 2</string>
+</resources>

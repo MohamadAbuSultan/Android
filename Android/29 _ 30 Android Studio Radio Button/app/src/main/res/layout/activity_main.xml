@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="148dp"
+        android:layout_height="71dp"
+        android:gravity="center"
+        android:shadowColor="#FA0404"
+        android:text="@string/radio_button"
+        android:textColor="@color/material_dynamic_secondary20"
+        android:textColorHighlight="@color/teal_700"
+        android:textSize="24sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.153" />
+
+    <RadioGroup
+        android:id="@+id/checkedId"
+        android:layout_width="181dp"
+        android:layout_height="144dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <RadioButton
+            android:id="@+id/pizzaId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pizza" />
+
+        <RadioButton
+            android:id="@+id/shawermaId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mohamad" />
+
+        <RadioButton
+            android:id="@+id/hamburgerId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:text="@string/hamburger" />
+
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

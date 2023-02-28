@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Switch Button</string>
+    <string name="wifi_off">Wifi Off</string>
+    <string name="switch_status">wifi status</string>
+</resources>

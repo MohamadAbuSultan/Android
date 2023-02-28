@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">javaClass</string>
+    <string name="my_name">click me</string>
+    <string name="my_text">text</string>
+</resources>

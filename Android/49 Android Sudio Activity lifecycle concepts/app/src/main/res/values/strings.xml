@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Activity lifecycle concepts</string>
+    <string name="first_activity">First View</string>
+    <string name="second_activity">Second Activity</string>
+    <string name="third_activity">Third Activity</string>
+    <string name="back_to_main">Back To Main</string>
+    <!--    <dimen name="font_50">50dp</dimen>-->
+</resources>
